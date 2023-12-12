@@ -8,7 +8,6 @@ export const Container = styled.div``;
 export const Main = styled.main`
   display: flex;
   align-items: center;
-  /* gap: 4rem; */
   max-width: 1360px;
   padding: 4rem;
   margin: 0 auto 8rem;
@@ -24,6 +23,8 @@ export const Main = styled.main`
 
 export const GraphicContainer = styled.section`
   width:100%;
+  padding-right: 15px;
+ 
 
 `;
 
@@ -34,8 +35,8 @@ export const TextContainer = styled.section`
   width: 100%;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   flex-direction: column;
+  margin-left: 15px;
 `;
 
 
@@ -80,5 +81,6 @@ export const TextGraphic = styled.p`
     color: var(--greenDark);
     text-align: center;
     margin-bottom: 2rem;
+  
    
 `;
